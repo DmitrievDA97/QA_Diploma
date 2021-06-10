@@ -14,3 +14,11 @@ services:
     image: node-app:1.0
     ports:
       - '9999:9999'
+  postgres_service:
+    image: postgres:12-alpine
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_DB=app
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
