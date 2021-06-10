@@ -1,0 +1,496 @@
+{
+  "uid" : "df1369b71e0c95a7",
+  "name" : "creditWithCardSufficientBalance()",
+  "fullName" : "ru.netology.test.TravelCreditTest.creditWithCardSufficientBalance",
+  "historyId" : "e06b118874d8d708bd360eaea645142d",
+  "time" : {
+    "start" : 1623329883932,
+    "stop" : 1623329894717,
+    "duration" : 10785
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1623329883932,
+        "stop" : 1623329883986,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Путешествие дня\") should be(visible)",
+      "time" : {
+        "start" : 1623329883986,
+        "stop" : 1623329884019,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Купить в кредит\") click()",
+      "time" : {
+        "start" : 1623329884019,
+        "stop" : 1623329884092,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Номер карты')\") parent()",
+      "time" : {
+        "start" : 1623329884092,
+        "stop" : 1623329884092,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Месяц')\") parent()",
+      "time" : {
+        "start" : 1623329884092,
+        "stop" : 1623329884092,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Год')\") parent()",
+      "time" : {
+        "start" : 1623329884092,
+        "stop" : 1623329884092,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Владелец')\") parent()",
+      "time" : {
+        "start" : 1623329884092,
+        "stop" : 1623329884092,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'CVC/CVV')\") parent()",
+      "time" : {
+        "start" : 1623329884092,
+        "stop" : 1623329884092,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Кредит по данным карты\") should be(visible)",
+      "time" : {
+        "start" : 1623329884092,
+        "stop" : 1623329884128,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Номер карты')\") parent()",
+      "time" : {
+        "start" : 1623329884128,
+        "stop" : 1623329884128,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Месяц')\") parent()",
+      "time" : {
+        "start" : 1623329884129,
+        "stop" : 1623329884129,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Год')\") parent()",
+      "time" : {
+        "start" : 1623329884129,
+        "stop" : 1623329884129,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Владелец')\") parent()",
+      "time" : {
+        "start" : 1623329884129,
+        "stop" : 1623329884129,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'CVC/CVV')\") parent()",
+      "time" : {
+        "start" : 1623329884129,
+        "stop" : 1623329884129,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Кредит по данным карты\") should be(visible)",
+      "time" : {
+        "start" : 1623329884129,
+        "stop" : 1623329884158,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='0000 0000 0000 0000']\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329884159,
+        "stop" : 1623329884217,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='0000 0000 0000 0000']\") set value(4444444444444441)",
+      "time" : {
+        "start" : 1623329884217,
+        "stop" : 1623329884348,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='08']\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329884348,
+        "stop" : 1623329884409,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='08']\") set value(06)",
+      "time" : {
+        "start" : 1623329884410,
+        "stop" : 1623329884499,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='22']\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329884499,
+        "stop" : 1623329884549,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='22']\") set value(22)",
+      "time" : {
+        "start" : 1623329884549,
+        "stop" : 1623329884641,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"div:nth-child(3) > span > span:nth-child(1) > span > span > span.input__box > input\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329884641,
+        "stop" : 1623329884706,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"div:nth-child(3) > span > span:nth-child(1) > span > span > span.input__box > input\") set value(Vern Wehner)",
+      "time" : {
+        "start" : 1623329884706,
+        "stop" : 1623329884828,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='999']\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329884828,
+        "stop" : 1623329884882,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='999']\") set value(777)",
+      "time" : {
+        "start" : 1623329884882,
+        "stop" : 1623329884975,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Продолжить\") click()",
+      "time" : {
+        "start" : 1623329884975,
+        "stop" : 1623329885047,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Путешествие дня\") should be(visible)",
+      "time" : {
+        "start" : 1623329885047,
+        "stop" : 1623329885074,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"with text: Успешно\") should be([visible, 15 s.])",
+      "time" : {
+        "start" : 1623329885074,
+        "stop" : 1623329894318,
+        "duration" : 9244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-6EBPL2Q"
+  }, {
+    "name" : "thread",
+    "value" : "17380@DESKTOP-6EBPL2Q.Test worker(22)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.TravelCreditTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.TravelCreditTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "creditWithCardSufficientBalance"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.TravelCreditTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a1ac0974972efeec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623329208629,
+        "stop" : 1623329216408,
+        "duration" : 7779
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df1369b71e0c95a7.json",
+  "parameterValues" : [ ]
+}

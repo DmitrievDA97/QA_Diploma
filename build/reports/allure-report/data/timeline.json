@@ -1,0 +1,489 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-6EBPL2Q",
+    "children" : [ {
+      "name" : "8@DESKTOP-6EBPL2Q.Test worker(22)",
+      "children" : [ {
+        "name" : "sendInvalidMonth()",
+        "uid" : "31acf75909a43fbb",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329242992,
+          "stop" : 1623329244201,
+          "duration" : 1209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidCardNumber()",
+        "uid" : "ee843d90e92a9e58",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329176994,
+          "stop" : 1623329178261,
+          "duration" : 1267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidHolder()",
+        "uid" : "301bf72993f2822c",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329184126,
+          "stop" : 1623329189677,
+          "duration" : 5551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidCode()",
+        "uid" : "d007938ea953842a",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329189677,
+          "stop" : 1623329190981,
+          "duration" : 1304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidCardNumber()",
+        "uid" : "664b1ef883c43966",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329222003,
+          "stop" : 1623329223254,
+          "duration" : 1251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendEmptyForm()",
+        "uid" : "d978eca24bced69a",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329223256,
+          "stop" : 1623329227829,
+          "duration" : 4573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidHolder()",
+        "uid" : "24001c4b1d2e3eab",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329236206,
+          "stop" : 1623329241694,
+          "duration" : 5488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "purchaseWithCardNoSufficientBalance()",
+        "uid" : "2cc61d60b74e9def",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329192200,
+          "stop" : 1623329208629,
+          "duration" : 16429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "purchaseWithCardNoSufficientBalance()",
+        "uid" : "2a1a5410e2f17321",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329244203,
+          "stop" : 1623329260759,
+          "duration" : 16556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendLastMonth()",
+        "uid" : "bbc0133b0336882e",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329166988,
+          "stop" : 1623329176859,
+          "duration" : 9871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creditWithCardSufficientBalance()",
+        "uid" : "a1ac0974972efeec",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329208629,
+          "stop" : 1623329216408,
+          "duration" : 7779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendEmptyForm()",
+        "uid" : "eac8b28de5d0f11a",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329178272,
+          "stop" : 1623329182855,
+          "duration" : 4583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidCode()",
+        "uid" : "d547fe306b64cb55",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329241694,
+          "stop" : 1623329242971,
+          "duration" : 1277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendLastYear()",
+        "uid" : "bedd0a13f08fc33b",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329234932,
+          "stop" : 1623329236204,
+          "duration" : 1272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendLastMonth()",
+        "uid" : "85582fa692004f58",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329216423,
+          "stop" : 1623329222003,
+          "duration" : 5580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "purchaseWithCardSufficientBalance()",
+        "uid" : "3a228e3d45b745ca",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329227829,
+          "stop" : 1623329234929,
+          "duration" : 7100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendLastYear()",
+        "uid" : "a710fc48fe356418",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329182855,
+          "stop" : 1623329184122,
+          "duration" : 1267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidMonth()",
+        "uid" : "688c73d1a541e230",
+        "parentUid" : "0174b18c950221e9f5d54a0d8c72f3ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329190984,
+          "stop" : 1623329192196,
+          "duration" : 1212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0174b18c950221e9f5d54a0d8c72f3ea"
+    }, {
+      "name" : "17380@DESKTOP-6EBPL2Q.Test worker(22)",
+      "children" : [ {
+        "name" : "creditWithCardSufficientBalance()",
+        "uid" : "df1369b71e0c95a7",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329883932,
+          "stop" : 1623329894717,
+          "duration" : 10785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidMonth()",
+        "uid" : "340feee5ffeb6c50",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329866273,
+          "stop" : 1623329867488,
+          "duration" : 1215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendLastYear()",
+        "uid" : "9e265b17b4734f70",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329858141,
+          "stop" : 1623329859408,
+          "duration" : 1267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "purchaseWithCardNoSufficientBalance()",
+        "uid" : "5e4cb4272438da3f",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329867491,
+          "stop" : 1623329883932,
+          "duration" : 16441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidHolder()",
+        "uid" : "3cb91a6f01823c55",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329859412,
+          "stop" : 1623329864963,
+          "duration" : 5551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidCardNumber()",
+        "uid" : "bd0f6a8561e9c3c6",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329852312,
+          "stop" : 1623329853570,
+          "duration" : 1258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendEmptyForm()",
+        "uid" : "fdbb6b0080ee1e2",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329853581,
+          "stop" : 1623329858141,
+          "duration" : 4560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendLastMonth()",
+        "uid" : "543ac4fef388e543",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329842334,
+          "stop" : 1623329852183,
+          "duration" : 9849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidCode()",
+        "uid" : "a4f19b65aef66557",
+        "parentUid" : "6eadff1185f85e74b8800ac44eba9ee6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329864979,
+          "stop" : 1623329866271,
+          "duration" : 1292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6eadff1185f85e74b8800ac44eba9ee6"
+    }, {
+      "name" : "10388@DESKTOP-6EBPL2Q.Test worker(22)",
+      "children" : [ {
+        "name" : "sendInvalidHolder()",
+        "uid" : "c7593be48a306781",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329750592,
+          "stop" : 1623329756256,
+          "duration" : 5664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendLastYear()",
+        "uid" : "ef77550033a5d6e4",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329749330,
+          "stop" : 1623329750590,
+          "duration" : 1260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendEmptyForm()",
+        "uid" : "93b8ba11d4cbd4e9",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329740129,
+          "stop" : 1623329744753,
+          "duration" : 4624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendLastMonth()",
+        "uid" : "ebb546ae018f63ed",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329728221,
+          "stop" : 1623329738708,
+          "duration" : 10487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidMonth()",
+        "uid" : "bc0d4541d786cba7",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329757522,
+          "stop" : 1623329758736,
+          "duration" : 1214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "purchaseWithCardNoSufficientBalance()",
+        "uid" : "d2ef6fa5555c95c5",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623329758739,
+          "stop" : 1623329775160,
+          "duration" : 16421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidCode()",
+        "uid" : "b3b6dcb15630a5c3",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329756260,
+          "stop" : 1623329757519,
+          "duration" : 1259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendInvalidCardNumber()",
+        "uid" : "29f2dd7d01479b3f",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329738863,
+          "stop" : 1623329740117,
+          "duration" : 1254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "purchaseWithCardSufficientBalance()",
+        "uid" : "f50326b0475847dd",
+        "parentUid" : "80dba47c91cf7393041fb2ea18144cb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623329744758,
+          "stop" : 1623329749326,
+          "duration" : 4568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "80dba47c91cf7393041fb2ea18144cb8"
+    } ],
+    "uid" : "6097fe0383cca2e3303825f0be58305e"
+  } ]
+}

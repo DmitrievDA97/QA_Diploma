@@ -1,6 +1,10 @@
 package ru.netology.test;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
 import lombok.val;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ru.netology.data.DataHelper;
@@ -19,6 +23,14 @@ public class TravelCreditTest {
     void setup() {
         open("http://localhost:8080");
         travelPage = new TravelPage();
+    }
+    @BeforeAll
+    static void setUpAll() {
+        SelenideLogger.addListener("allure",new AllureSelenide());
+    }
+    @AfterAll
+    static void tearDownAll() {
+        SelenideLogger.removeListener("allure");
     }
 
     @Test

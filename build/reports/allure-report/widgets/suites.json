@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "8c2403fbea1d1c2ed34f3472a8fdb907",
+    "name" : "ru.netology.test.TravelPurchaseTest",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "c6be37d5190030e0ed1387908f1071f4",
+    "name" : "ru.netology.test.TravelCreditTest",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ]
+}

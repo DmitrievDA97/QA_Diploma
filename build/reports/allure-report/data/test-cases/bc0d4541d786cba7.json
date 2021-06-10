@@ -1,0 +1,496 @@
+{
+  "uid" : "bc0d4541d786cba7",
+  "name" : "sendInvalidMonth()",
+  "fullName" : "ru.netology.test.TravelPurchaseTest.sendInvalidMonth",
+  "historyId" : "4161ca5717ea6c5a76649ddcfa3f9efe",
+  "time" : {
+    "start" : 1623329757522,
+    "stop" : 1623329758736,
+    "duration" : 1214
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1623329757523,
+        "stop" : 1623329757555,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Путешествие дня\") should be(visible)",
+      "time" : {
+        "start" : 1623329757555,
+        "stop" : 1623329757581,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Купить\") click()",
+      "time" : {
+        "start" : 1623329757581,
+        "stop" : 1623329757657,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Номер карты')\") parent()",
+      "time" : {
+        "start" : 1623329757657,
+        "stop" : 1623329757657,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Месяц')\") parent()",
+      "time" : {
+        "start" : 1623329757657,
+        "stop" : 1623329757657,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Год')\") parent()",
+      "time" : {
+        "start" : 1623329757657,
+        "stop" : 1623329757657,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Владелец')\") parent()",
+      "time" : {
+        "start" : 1623329757657,
+        "stop" : 1623329757657,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'CVC/CVV')\") parent()",
+      "time" : {
+        "start" : 1623329757657,
+        "stop" : 1623329757657,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Оплата по карте\") should be(visible)",
+      "time" : {
+        "start" : 1623329757657,
+        "stop" : 1623329757693,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Номер карты')\") parent()",
+      "time" : {
+        "start" : 1623329757693,
+        "stop" : 1623329757693,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Месяц')\") parent()",
+      "time" : {
+        "start" : 1623329757693,
+        "stop" : 1623329757693,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Год')\") parent()",
+      "time" : {
+        "start" : 1623329757693,
+        "stop" : 1623329757693,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Владелец')\") parent()",
+      "time" : {
+        "start" : 1623329757693,
+        "stop" : 1623329757693,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'CVC/CVV')\") parent()",
+      "time" : {
+        "start" : 1623329757693,
+        "stop" : 1623329757693,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Оплата по карте\") should be(visible)",
+      "time" : {
+        "start" : 1623329757693,
+        "stop" : 1623329757722,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='0000 0000 0000 0000']\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329757722,
+        "stop" : 1623329757784,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='0000 0000 0000 0000']\") set value(4444444444444441)",
+      "time" : {
+        "start" : 1623329757784,
+        "stop" : 1623329757909,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='08']\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329757909,
+        "stop" : 1623329757968,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='08']\") set value(13)",
+      "time" : {
+        "start" : 1623329757968,
+        "stop" : 1623329758064,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='22']\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329758064,
+        "stop" : 1623329758129,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='22']\") set value(22)",
+      "time" : {
+        "start" : 1623329758130,
+        "stop" : 1623329758223,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"div:nth-child(3) > span > span:nth-child(1) > span > span > span.input__box > input\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329758223,
+        "stop" : 1623329758286,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"div:nth-child(3) > span > span:nth-child(1) > span > span > span.input__box > input\") set value(Antonio Lehner)",
+      "time" : {
+        "start" : 1623329758286,
+        "stop" : 1623329758410,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='999']\") send keys([A, ])",
+      "time" : {
+        "start" : 1623329758410,
+        "stop" : 1623329758462,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input [placeholder='999']\") set value(777)",
+      "time" : {
+        "start" : 1623329758462,
+        "stop" : 1623329758558,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Продолжить\") click()",
+      "time" : {
+        "start" : 1623329758558,
+        "stop" : 1623329758631,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Путешествие дня\") should be(visible)",
+      "time" : {
+        "start" : 1623329758632,
+        "stop" : 1623329758657,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Месяц')/By.xpath: ../by text: Неверно указан срок действия карты\") should be(visible)",
+      "time" : {
+        "start" : 1623329758657,
+        "stop" : 1623329758736,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-6EBPL2Q"
+  }, {
+    "name" : "thread",
+    "value" : "10388@DESKTOP-6EBPL2Q.Test worker(22)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.TravelPurchaseTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.TravelPurchaseTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sendInvalidMonth"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.TravelPurchaseTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31acf75909a43fbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623329242992,
+        "stop" : 1623329244201,
+        "duration" : 1209
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc0d4541d786cba7.json",
+  "parameterValues" : [ ]
+}

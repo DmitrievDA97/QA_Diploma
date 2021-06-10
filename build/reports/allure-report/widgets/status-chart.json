@@ -1,0 +1,181 @@
+[ {
+  "uid" : "340feee5ffeb6c50",
+  "name" : "sendInvalidMonth()",
+  "time" : {
+    "start" : 1623329866273,
+    "stop" : 1623329867488,
+    "duration" : 1215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93b8ba11d4cbd4e9",
+  "name" : "sendEmptyForm()",
+  "time" : {
+    "start" : 1623329740129,
+    "stop" : 1623329744753,
+    "duration" : 4624
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdbb6b0080ee1e2",
+  "name" : "sendEmptyForm()",
+  "time" : {
+    "start" : 1623329853581,
+    "stop" : 1623329858141,
+    "duration" : 4560
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4f19b65aef66557",
+  "name" : "sendInvalidCode()",
+  "time" : {
+    "start" : 1623329864979,
+    "stop" : 1623329866271,
+    "duration" : 1292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e265b17b4734f70",
+  "name" : "sendLastYear()",
+  "time" : {
+    "start" : 1623329858141,
+    "stop" : 1623329859408,
+    "duration" : 1267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29f2dd7d01479b3f",
+  "name" : "sendInvalidCardNumber()",
+  "time" : {
+    "start" : 1623329738863,
+    "stop" : 1623329740117,
+    "duration" : 1254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7593be48a306781",
+  "name" : "sendInvalidHolder()",
+  "time" : {
+    "start" : 1623329750592,
+    "stop" : 1623329756256,
+    "duration" : 5664
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef77550033a5d6e4",
+  "name" : "sendLastYear()",
+  "time" : {
+    "start" : 1623329749330,
+    "stop" : 1623329750590,
+    "duration" : 1260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebb546ae018f63ed",
+  "name" : "sendLastMonth()",
+  "time" : {
+    "start" : 1623329728221,
+    "stop" : 1623329738708,
+    "duration" : 10487
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cb91a6f01823c55",
+  "name" : "sendInvalidHolder()",
+  "time" : {
+    "start" : 1623329859412,
+    "stop" : 1623329864963,
+    "duration" : 5551
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "543ac4fef388e543",
+  "name" : "sendLastMonth()",
+  "time" : {
+    "start" : 1623329842334,
+    "stop" : 1623329852183,
+    "duration" : 9849
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "df1369b71e0c95a7",
+  "name" : "creditWithCardSufficientBalance()",
+  "time" : {
+    "start" : 1623329883932,
+    "stop" : 1623329894717,
+    "duration" : 10785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e4cb4272438da3f",
+  "name" : "purchaseWithCardNoSufficientBalance()",
+  "time" : {
+    "start" : 1623329867491,
+    "stop" : 1623329883932,
+    "duration" : 16441
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd0f6a8561e9c3c6",
+  "name" : "sendInvalidCardNumber()",
+  "time" : {
+    "start" : 1623329852312,
+    "stop" : 1623329853570,
+    "duration" : 1258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f50326b0475847dd",
+  "name" : "purchaseWithCardSufficientBalance()",
+  "time" : {
+    "start" : 1623329744758,
+    "stop" : 1623329749326,
+    "duration" : 4568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc0d4541d786cba7",
+  "name" : "sendInvalidMonth()",
+  "time" : {
+    "start" : 1623329757522,
+    "stop" : 1623329758736,
+    "duration" : 1214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2ef6fa5555c95c5",
+  "name" : "purchaseWithCardNoSufficientBalance()",
+  "time" : {
+    "start" : 1623329758739,
+    "stop" : 1623329775160,
+    "duration" : 16421
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3b6dcb15630a5c3",
+  "name" : "sendInvalidCode()",
+  "time" : {
+    "start" : 1623329756260,
+    "stop" : 1623329757519,
+    "duration" : 1259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

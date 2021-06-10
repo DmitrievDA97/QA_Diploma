@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.test.TravelCreditTest" tests="9" skipped="0" failures="4" errors="0" timestamp="2021-06-10T10:10:12" hostname="DESKTOP-6EBPL2Q" time="52.105">
+<testsuite name="ru.netology.test.TravelCreditTest" tests="9" skipped="0" failures="4" errors="0" timestamp="2021-06-10T12:57:22" hostname="DESKTOP-6EBPL2Q" time="52.375">
   <properties/>
-  <testcase name="sendLastMonth()" classname="ru.netology.test.TravelCreditTest" time="8.931">
-    <failure message="Element not found {.input__top.findBy(text 'Месяц')/By.xpath: ../by text: Истёк срок действия карты}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319821632.0.png&#13;&#10;Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319821632.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__top.findBy(text 'Месяц')/By.xpath: ../by text: Истёк срок действия карты}
+  <testcase name="sendLastMonth()" classname="ru.netology.test.TravelCreditTest" time="9.97">
+    <failure message="Element not found {.input__top.findBy(text 'Месяц')/By.xpath: ../by text: Истёк срок действия карты}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329851908.0.png&#13;&#10;Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329851908.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__top.findBy(text 'Месяц')/By.xpath: ../by text: Истёк срок действия карты}
 Expected: visible
-Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319821632.0.png
-Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319821632.0.html
+Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329851908.0.png
+Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329851908.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -16,9 +16,9 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at com.sun.proxy.$Proxy13.shouldBe(Unknown Source)
+	at com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
 	at ru.netology.page.CreditPurchasePage.lastMonth(CreditPurchasePage.java:66)
-	at ru.netology.test.TravelCreditTest.sendLastMonth(TravelCreditTest.java:58)
+	at ru.netology.test.TravelCreditTest.sendLastMonth(TravelCreditTest.java:70)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -116,8 +116,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-6EBPL2Q', ip: '192.168.1.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Denis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3327c1173511178cf27d5115aab1e142
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Denis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59b73beb4db522223f31d85468d7b34d
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Истёк срок действия карты&quot;]/parent::*}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -142,12 +142,12 @@ Session ID: 3327c1173511178cf27d5115aab1e142
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="sendInvalidCardNumber()" classname="ru.netology.test.TravelCreditTest" time="1.207"/>
-  <testcase name="sendEmptyForm()" classname="ru.netology.test.TravelCreditTest" time="4.4">
-    <failure message="Element not found {.input__top.findBy(text 'Номер карты')/By.xpath: ../by text: Поле обязательно для заполнения}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319827282.1.png&#13;&#10;Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319827282.1.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__top.findBy(text 'Номер карты')/By.xpath: ../by text: Поле обязательно для заполнения}
+  <testcase name="sendInvalidCardNumber()" classname="ru.netology.test.TravelCreditTest" time="1.257"/>
+  <testcase name="sendEmptyForm()" classname="ru.netology.test.TravelCreditTest" time="4.568">
+    <failure message="Element not found {.input__top.findBy(text 'Номер карты')/By.xpath: ../by text: Поле обязательно для заполнения}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329857872.1.png&#13;&#10;Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329857872.1.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__top.findBy(text 'Номер карты')/By.xpath: ../by text: Поле обязательно для заполнения}
 Expected: visible
-Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319827282.1.png
-Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319827282.1.html
+Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329857872.1.png
+Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329857872.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -158,9 +158,9 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at com.sun.proxy.$Proxy13.shouldBe(Unknown Source)
+	at com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
 	at ru.netology.page.CreditPurchasePage.emptyFields(CreditPurchasePage.java:82)
-	at ru.netology.test.TravelCreditTest.sendEmptyForm(TravelCreditTest.java:99)
+	at ru.netology.test.TravelCreditTest.sendEmptyForm(TravelCreditTest.java:111)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -258,11 +258,11 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-6EBPL2Q', ip: '192.168.1.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Denis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3327c1173511178cf27d5115aab1e142
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Denis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59b73beb4db522223f31d85468d7b34d
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Поле обязательно для заполнения&quot;]/parent::*}
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -283,12 +283,12 @@ Session ID: 3327c1173511178cf27d5115aab1e142
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="sendLastYear()" classname="ru.netology.test.TravelCreditTest" time="1.232"/>
-  <testcase name="sendInvalidHolder()" classname="ru.netology.test.TravelCreditTest" time="5.384">
-    <failure message="Element not found {.input__top.findBy(text 'Владелец')/By.xpath: ../by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319833880.2.png&#13;&#10;Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319833880.2.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__top.findBy(text 'Владелец')/By.xpath: ../by text: Неверный формат}
+  <testcase name="sendLastYear()" classname="ru.netology.test.TravelCreditTest" time="1.254"/>
+  <testcase name="sendInvalidHolder()" classname="ru.netology.test.TravelCreditTest" time="5.564">
+    <failure message="Element not found {.input__top.findBy(text 'Владелец')/By.xpath: ../by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329864703.2.png&#13;&#10;Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329864703.2.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__top.findBy(text 'Владелец')/By.xpath: ../by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319833880.2.png
-Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319833880.2.html
+Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329864703.2.png
+Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329864703.2.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -299,9 +299,9 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at com.sun.proxy.$Proxy13.shouldBe(Unknown Source)
+	at com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
 	at ru.netology.page.CreditPurchasePage.invalidHolder(CreditPurchasePage.java:75)
-	at ru.netology.test.TravelCreditTest.sendInvalidHolder(TravelCreditTest.java:85)
+	at ru.netology.test.TravelCreditTest.sendInvalidHolder(TravelCreditTest.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -399,11 +399,11 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-6EBPL2Q', ip: '192.168.1.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Denis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3327c1173511178cf27d5115aab1e142
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Denis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59b73beb4db522223f31d85468d7b34d
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -424,14 +424,14 @@ Session ID: 3327c1173511178cf27d5115aab1e142
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="sendInvalidCode()" classname="ru.netology.test.TravelCreditTest" time="1.236"/>
-  <testcase name="sendInvalidMonth()" classname="ru.netology.test.TravelCreditTest" time="1.174"/>
-  <testcase name="purchaseWithCardNoSufficientBalance()" classname="ru.netology.test.TravelCreditTest" time="16.314">
-    <failure message="Element should be visible {with text: Ошибка}&#13;&#10;Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: visible:false&#13;&#10;Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319852645.3.png&#13;&#10;Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319852645.3.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {with text: Ошибка}
+  <testcase name="sendInvalidCode()" classname="ru.netology.test.TravelCreditTest" time="1.292"/>
+  <testcase name="sendInvalidMonth()" classname="ru.netology.test.TravelCreditTest" time="1.216"/>
+  <testcase name="purchaseWithCardNoSufficientBalance()" classname="ru.netology.test.TravelCreditTest" time="16.456">
+    <failure message="Element should be visible {with text: Ошибка}&#13;&#10;Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: visible:false&#13;&#10;Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329883701.3.png&#13;&#10;Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329883701.3.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {with text: Ошибка}
 Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: visible:false
-Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319852645.3.png
-Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623319852645.3.html
+Screenshot: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329883701.3.png
+Page source: file:/C:/Users/Denis/Desktop/Software_testing/Diploma/build/reports/tests/1623329883701.3.html
 Timeout: 15 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
 	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -439,9 +439,9 @@ Timeout: 15 s.
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at com.sun.proxy.$Proxy13.shouldBe(Unknown Source)
+	at com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
 	at ru.netology.page.CreditPurchasePage.error(CreditPurchasePage.java:58)
-	at ru.netology.test.TravelCreditTest.purchaseWithCardNoSufficientBalance(TravelCreditTest.java:40)
+	at ru.netology.test.TravelCreditTest.purchaseWithCardNoSufficientBalance(TravelCreditTest.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -534,16 +534,13 @@ Timeout: 15 s.
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="creditWithCardSufficientBalance()" classname="ru.netology.test.TravelCreditTest" time="12.223"/>
+  <testcase name="creditWithCardSufficientBalance()" classname="ru.netology.test.TravelCreditTest" time="10.784"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 41372
+  <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 45997
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июн. 10, 2021 1:10:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июн. 10, 2021 3:57:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
