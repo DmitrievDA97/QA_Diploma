@@ -1,15 +1,15 @@
 ru/netology/data/DataHelper.java
  ru.netology.data.DataHelper
  ru.netology.data.DataHelper$CardInfo
-ru/netology/test/TravelCreditTest.java
- ru.netology.test.TravelCreditTest
-ru/netology/data/DBHelper.java
- ru.netology.data.DBHelper
 ru/netology/page/CreditPurchasePage.java
  ru.netology.page.CreditPurchasePage
+ru/netology/data/DBHelper.java
+ ru.netology.data.DBHelper
 ru/netology/page/TravelPage.java
  ru.netology.page.TravelPage
 ru/netology/test/TravelPurchaseTest.java
  ru.netology.test.TravelPurchaseTest
 ru/netology/page/PurchasePage.java
  ru.netology.page.PurchasePage
+ru/netology/test/TravelCreditTest.java
+ ru.netology.test.TravelCreditTest
