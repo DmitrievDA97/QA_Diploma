@@ -18,7 +18,6 @@ public class PurchasePage {
     private SelenideElement number = $(".input [placeholder='0000 0000 0000 0000']");
     private SelenideElement month = $(".input [placeholder='08']");
     private SelenideElement year = $(".input [placeholder='22']");
-    private SelenideElement holder = $("div:nth-child(3) > span > span:nth-child(1) > span > span > span.input__box > input");
     private SelenideElement code = $(".input [placeholder='999']");
     private SelenideElement proceed = $(byText("Продолжить"));
     private SelenideElement successfullyPurchase = $(withText("Успешно"));
@@ -28,6 +27,7 @@ public class PurchasePage {
     private SelenideElement fieldYear = $$(".input__top").find(text("Год")).parent();
     private SelenideElement fieldHolder = $$(".input__top").find(text("Владелец")).parent();
     private SelenideElement fieldCode = $$(".input__top").find(text("CVC/CVV")).parent();
+    private SelenideElement holder = fieldHolder.$(".input__control");
 
 
 

@@ -13,7 +13,7 @@ import ru.netology.page.TravelPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.netology.data.DBHelper.getStatusCredit;
+import static ru.netology.data.DBHelper.*;
 
 
 public class TravelCreditTest {
@@ -44,7 +44,7 @@ public class TravelCreditTest {
     }
 
     @Test
-    void purchaseWithCardNoSufficientBalance() {
+    void creditWithCardNoSufficientBalance() {
         val card = DataHelper.getCardNoMoney();
         travelPage.purchaseOnCredit();
         val creditPage = new CreditPurchasePage();

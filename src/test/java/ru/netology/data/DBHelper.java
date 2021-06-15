@@ -14,7 +14,7 @@ public class DBHelper {
 
     @SneakyThrows
     private static Connection getConnection() {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/app", "user", "pass");
+        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/app", "user", "pass");
     }
 
     @SneakyThrows
